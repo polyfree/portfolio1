@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>포트폴리오</title>
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/sub.css" rel="stylesheet">
+</style>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $("#tab_menu1").click(function(){
+   $(".tab_sub1").show();
+   $(".tab_sub2,.tab_sub3,.tab_sub4,.tab_sub5").hide();
+   $("#tab_menu1").addClass("port_back");
+   $("#tab_menu2,#tab_menu3,#tab_menu4,#tab_menu5").removeClass("port_back");
+  });
+  $("#tab_menu2").click(function(){
+   $(".tab_sub2").show();
+   $(".tab_sub1,.tab_sub3,.tab_sub4,.tab_sub5").hide();
+   $("#tab_menu2").addClass("port_back");
+   $("#tab_menu1,#tab_menu3,#tab_menu4,#tab_menu5").removeClass("port_back");
+   $("select").height(")
+  });
+  $("#tab_menu3").click(function(){
+   $(".tab_sub3").show();
+   $(".tab_sub1,.tab_sub2,.tab_sub4,.tab_sub5").hide();
+   $("#tab_menu3").addClass("port_back");
+   $("#tab_menu1,#tab_menu2,#tab_menu4,#tab_menu5").removeClass("port_back");
+  });
+  $("#tab_menu4").click(function(){
+   $(".tab_sub4").show();
+   $(".tab_sub1,.tab_sub2,.tab_sub3,.tab_sub5").hide();
+   $("#tab_menu4").addClass("port_back");
+   $("#tab_menu1,#tab_menu2,#tab_menu3,#tab_menu5").removeClass("port_back");
+  });
+  $("#tab_menu5").click(function(){
+   $(".tab_sub5").show();
+   $(".tab_sub1,.tab_sub1,.tab_sub2,.tab_sub4").hide();
+   $("#tab_menu5").addClass("port_back");
+   $("#tab_menu1,#tab_menu2,#tab_menu3,#tab_menu4").removeClass("port_back");
+  });
+});
+
+</script>
+
+</head>
+
+ <body>
+ <header>
+
+  <div id="top"> 
+   <div id="topleft">
+   <span><a href="#">SITE MAP</a></span>
+   <span><a href="#">CONTACT</a></span>
+   
+  <div id="select"> 
+   <select>
+     <option value="dollor" selected>$</option>
+     <option value="won">원</option>
+   </select>
+   <select>
+     <option value="english" selected>EN</option>
+     <option value="korea">KO</option>
+   </select>
+   </div>
+  </div>
+  </div>
+
+  <div id="logo">
+   <a href="main.html"><img src="img/20.png" alt="picture"></a>
+   <a href="main.html"></a>
+   <div id="inputtype"><input type="text" placeholder=" Search"></div>
+   <div id="basket">
+   <img src="img/18.png" alt="picture">
+  </div>
+  </div>
+   
+  <nav>
+   <ul>
+    <li><a href="">ACCESSORIES</a></li>    
+    <li><a href="">CLOTHING</a></li>
+    <li><a href="">CYLINDERS</a></li>
+    <li><a href="">DIVE COMPUTERS</a></li>
+    <li><a href="">DRY SUITS</a></li>
+    <li><a href="">GLOVES</a></li>
+    <li><a href="">FINS</a></li>
+   </ul>
+  </nav>
+
+ </header>
+
+
+ <!-- 상품상세페이지 -->
+
+ <section>
+   <div id="navtop">
+      <a href="main.html"><img src="img2/home.jpg" alt="home">
+      <span>홈</span></a>
+      <select>
+	<option value="" selected>스쿠버장비</option>
+	<option value="">스킨장비</option>
+	<option value="">카메라하우징</option>
+      </select>
+      <img src="img2/arrow.jpg" alt="left">
+      <select>
+	<option value="" selected>호흡기</option>
+	<option value="">스킨장비</option>
+	<option value="">카메라하우징</option>
+      </select>
+      <img src="img2/arrow.jpg" alt="left">
+      <select>
+	<option value="" selected>옥토퍼스</option>
+	<option value="">스킨장비</option>
+	<option value="">카메라하우징</option>
+      </select>
+   </div>
+
+   <div id="productname">
+     <h2>[스쿠버프로/SCUBAPRO] 엠케이25 에보 / MK25 EVO/S600</h2>
+   </div>
+
+   <div id="photoAll">
+     <div id="photoview">
+	<img src="img2/1.jpg" alt="">
+     </div>
+     <div id="photoZoom">
+	<a href="#"><img src="img2/zoom.png" alt=""></a>
+     </div>
+     <div id="photoSlide">
+	<ul>
+	  <li><a href="#"><img src="img2/1.jpg" alt="" width="60px" height="60px"></li></a>
+	  <li><a href="#"><img src="img2/1.jpg" alt="" width="60px" height="60px"></li></a>
+	  <li><a href="#"><img src="img2/1.jpg" alt="" width="60px" height="60px"></li></a>
+	  <li><a href="#"><img src="img2/1.jpg" alt="" width="60px" height="60px"></li></a>
+	  <li><a href="#"><img src="img2/1.jpg" alt="" width="60px" height="60px"></li></a>
+
+	</ul>
+      </div>
+   </div>
+
+   <div id="tableAll">
+     <table>
+	<tr>
+	  <th>시중가</th>
+	  <td><del>1,210,000원</del></td>
+	</tr>
+	
+	<tr class="price">
+	  <th>판매가</th>
+	  <td><span>1,089,000</span><span>원</span><span>10%</span><img src="img2/2.jpg" alt="" width="15px"></td>
+	</tr>
+
+	<tr class="pp">
+	  <th>적립금</th>
+	  <td><img src="img2/p.gif" alt="">1%<span>적립금을 받으려면?</span></td>
+	</tr>
+
+	<tr>
+	  <th>배송비</th>
+	  <td><span>[기본정책] 선불 4,000원(100,000원 이상 구매시 무료)</span></td>
+	</tr>
+
+	<tr>
+	  <th>제조사</th>
+	  <td><span>SCUBAPRO</span></td>
+	</tr>
+
+	<tr>
+	  <th>상품코드</th>
+	  <td><span>G00316</span></td>
+	</tr>
+
+	<tr class="select">
+	  <th>타입</th>
+	  <td>
+	    <select>
+		<option value="선택하세요.">선택하세요.</option>
+		<option value="요크타입">요크타입</option>
+		<option value="딘타입">딘타입</option>
+	    </select> 
+	  </td>
+	</tr>
+
+	<tr class="ppp">
+	  <td colspan="2">위 선택박스에서 상품을 선택하시면, 상품을 추가하실 수 있습니다.</td>
+	</tr>
+
+	<tr class="card">
+	  <th>무이자할부</th>
+	  <td><a href="#"><span>카드사별 혜택보기</span></a></td>
+	</tr>
+
+	<tr class="sum">
+	  <td colspan="2">총 합계금액(수량) :<span><strong>0원(0개)</strong></span></td>
+	</tr>
+
+     </table>
+     
+     <hr>
+
+     <div id="tableBottom">
+	<div id="buttons">
+	  <a href="#"><img src="img2/1.png" alt=""></a>
+	  <a href="#"><img src="img2/2.png" alt=""></a>
+	  <a href="#"><img src="img2/3.png" alt=""></a>
+	</div>
+	<div id="naver">
+	</div>
+      </div>
+   </div>
+ 
+
+   <div id="recomand">
+    <h3>관련추천상품</h3>
+     <div id="innner">
+      <ul>
+	<li>
+	  <div>
+	    <a href="#"><img src="img2/3.jpg" alt=""></a>
+	    <a href="#"><span class="scuberpro">[스쿠버프로/SCUBAPRO]   R195    옥토퍼스 / R195 OCTOPUS</span></a>
+	    <strong><a href="#"><span class="scuberpro2">판매가 325,000원</span></a></strong>
+	  </div>
+        </li>
+	<li>
+	  <div>
+	    <a href="#"><img src="img2/4.jpg" alt=""></a>
+	    <a href="#"><span class="scuberpro">[스쿠버프로/SCUBAPRO] R195 /R195 OCTOPUS + R195</span></a>
+	    <strong><a href="#"><span class="scuberpro2">판매가 300,000원</span></a></strong>
+	  </div>
+        </li>
+	<li>
+	  <div>
+	    <a href="#"><img src="img2/5.jpg" alt=""></a>
+	    <a href="#"><span class="scuberpro">[스쿠버프로/SCUBAPRO] REGULATOR BAG + INSTRUMENT BAG</span></a>
+	    <strong><a href="#"><span class="scuberpro2">판매가 65,000원</span></a></strong>
+	  </div>
+        </li>
+	<li>
+	  <div>
+	    <a href="#"><img src="img2/6.jpg" alt=""></a>
+	    <a href="#"><span class="scuberpro">[캠와이즈/CAMWISE] 캠와이즈 스쿠버용 레귤레이터 1단계 실리콘 보호 케이스 </span></a>
+	    <strong><a href="#"><span class="scuberpro2">판매가 28,000원</span></a></strong>
+	  </div>
+        </li>
+	<li>
+	  <div>
+	    <a href="#"><img src="img2/7.jpg" alt=""></a>
+	    <a href="#"><span class="scuberpro">[스쿠버프로/SCUBAPRO] SCUBAPRO S600 전면부 프레임 KIT</span></a>
+	    <strong><a href="#"><span class="scuberpro2">판매가 35,000원</span></a></strong>
+	  </div>
+        </li>
+
+     </ul>
+    </div>
+   </div>
+
+   <div id="detailAll">
+     <ul>
+	<li id="tab_menu1" class="port_back">제품상세정보</li>
+	<li id="tab_menu2">배송관련정보</li>
+	<li id="tab_menu3">교환/환불정보</li>
+	<li id="tab_menu4">고객상품평</li>
+	<li id="tab_menu5">상품Q&A</li>
+     </ul>
+     <div class="tab_list">
+       <div class="tab_sub1" >
+
+         <div class="review"><img src="img2/1_435.jpg" alt=""></div>
+         <div class="reviewAll"></div>
+       </div>
+       <div class="tab_sub2">
+         <div class="review"><img src="img2/Untitled-3.jpg" width="1600px" alt=""></div>
+         <div class="reviewAll"></div>
+       </div>
+       <div class="tab_sub3">
+         <div class="review"><img src="img2/Untitled-3_3.jpg" width="1600px" alt=""></div>
+         <div class="reviewAll"></div>
+       </div>
+       <div class="tab_sub4" style="background-color:pink">
+         <h3>고객상품평</h3>
+         <div class="review"><img src="" alt=""></div>
+         <div class="reviewAll"></div>
+       </div>
+       <div class="tab_sub5" style="background-color:skyblue">
+         <h3>상품Q&A</h3>
+         <div class="review"><img src="" alt=""></div>
+         <div class="reviewAll"></div>
+       </div>
+     </div>
+
+   </div>     
+
+ </section>
+
+  
+ <footer>
+
+  <div id="follow">
+   <div class="followus">
+    <h2>FOLLOW US</h2>
+    <img src="img/28.png" alt="picture">
+    <img src="img/29.png" alt="picture">
+    <img src="img/30.png" alt="picture">
+   </div>
+  </div>
+
+  <div id="sitemap">  
+   <div class="section1"> 
+
+    <div id="newsletter">
+      <h2>NEWSLETTER</h2>
+      <input type="text" placeholder="ENTER YOUR E-MAIL" >
+    </div>
+
+    <div id="information">
+      <h2>INFORMATION</h2>
+      <ul>
+         <li>SPECIALS</li>
+         <li>NEW PRODUCTS</li>
+         <li>TOP SELLERS</li>
+         <li>OUR STORES</li>
+         <li>CONTANT US</li>
+         <li>PAGES CONFIGURATION</li>
+         <li>SITEMAP</li>
+      </ul>
+
+    </div>
+
+    <div id="myaccount">
+      <h2>MY ACCOUNT</h2>
+      <ul>
+         <li>MY ORDERS</li>
+         <li>MY MERCHANDISE</li>
+         <li>RETURNS</li>
+         <li>MY CREDIT SLIPS</li>
+         <li>MY ADDRESSES</li>
+         <li>MY PERSONAL INFO</li>
+         <li>MY VOUCHERS</li>
+      </ul>      
+    </div>
+
+    <div id="storeinfo">
+      <h2>STORE INFORMAITION</h2>
+
+         <p>MY COMPANY, 4578 MARMORA ROAD,<br>
+         GLASGOW D04 89GR<br>
+         CALL US NOW:0123-456-789</p>
+
+         <img src="img/32.jpg" alt="picture"><p>EMAIL:IMFP@DEMOLINK.ORG</p>
+
+    </div>
+   </div>
+  </div>
+
+ </footer>
+
+</body>
+
+
+</html>
