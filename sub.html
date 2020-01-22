@@ -5,7 +5,7 @@
   <title>포트폴리오</title>
   <link href="css/common.css" rel="stylesheet">
   <link href="css/sub.css" rel="stylesheet">
-</style>
+
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -17,31 +17,37 @@
    $(".tab_sub2,.tab_sub3,.tab_sub4,.tab_sub5").hide();
    $("#tab_menu1").addClass("port_back");
    $("#tab_menu2,#tab_menu3,#tab_menu4,#tab_menu5").removeClass("port_back");
+   $("section").height("3050px")
+   $("detailAll").height("2000px")
   });
   $("#tab_menu2").click(function(){
    $(".tab_sub2").show();
    $(".tab_sub1,.tab_sub3,.tab_sub4,.tab_sub5").hide();
    $("#tab_menu2").addClass("port_back");
    $("#tab_menu1,#tab_menu3,#tab_menu4,#tab_menu5").removeClass("port_back");
-   $("select").height(")
+   $("section").height("1530px")
+   $("#detailAll").height("900px")
   });
   $("#tab_menu3").click(function(){
    $(".tab_sub3").show();
    $(".tab_sub1,.tab_sub2,.tab_sub4,.tab_sub5").hide();
    $("#tab_menu3").addClass("port_back");
    $("#tab_menu1,#tab_menu2,#tab_menu4,#tab_menu5").removeClass("port_back");
+   $("section").height("2100px")
   });
   $("#tab_menu4").click(function(){
    $(".tab_sub4").show();
    $(".tab_sub1,.tab_sub2,.tab_sub3,.tab_sub5").hide();
    $("#tab_menu4").addClass("port_back");
    $("#tab_menu1,#tab_menu2,#tab_menu3,#tab_menu5").removeClass("port_back");
+   $("section").height("1530px")
   });
   $("#tab_menu5").click(function(){
    $(".tab_sub5").show();
    $(".tab_sub1,.tab_sub1,.tab_sub2,.tab_sub4").hide();
    $("#tab_menu5").addClass("port_back");
    $("#tab_menu1,#tab_menu2,#tab_menu3,#tab_menu4").removeClass("port_back");
+   $("section").height("1530px")
   });
 });
 
@@ -52,12 +58,12 @@
  <body>
  <header>
 
-  <div id="top"> 
+  <div id="top">
    <div id="topleft">
    <span><a href="#">SITE MAP</a></span>
    <span><a href="#">CONTACT</a></span>
-   
-  <div id="select"> 
+
+  <div id="select">
    <select>
      <option value="dollor" selected>$</option>
      <option value="won">원</option>
@@ -78,10 +84,10 @@
    <img src="img/18.png" alt="picture">
   </div>
   </div>
-   
+
   <nav>
    <ul>
-    <li><a href="">ACCESSORIES</a></li>    
+    <li><a href="">ACCESSORIES</a></li>
     <li><a href="">CLOTHING</a></li>
     <li><a href="">CYLINDERS</a></li>
     <li><a href="">DIVE COMPUTERS</a></li>
@@ -148,7 +154,7 @@
 	  <th>시중가</th>
 	  <td><del>1,210,000원</del></td>
 	</tr>
-	
+
 	<tr class="price">
 	  <th>판매가</th>
 	  <td><span>1,089,000</span><span>원</span><span>10%</span><img src="img2/2.jpg" alt="" width="15px"></td>
@@ -181,7 +187,7 @@
 		<option value="선택하세요.">선택하세요.</option>
 		<option value="요크타입">요크타입</option>
 		<option value="딘타입">딘타입</option>
-	    </select> 
+	    </select>
 	  </td>
 	</tr>
 
@@ -199,7 +205,7 @@
 	</tr>
 
      </table>
-     
+
      <hr>
 
      <div id="tableBottom">
@@ -212,7 +218,7 @@
 	</div>
       </div>
    </div>
- 
+
 
    <div id="recomand">
     <h3>관련추천상품</h3>
@@ -280,10 +286,25 @@
          <div class="review"><img src="img2/Untitled-3_3.jpg" width="1600px" alt=""></div>
          <div class="reviewAll"></div>
        </div>
-       <div class="tab_sub4" style="background-color:pink">
-         <h3>고객상품평</h3>
-         <div class="review"><img src="" alt=""></div>
-         <div class="reviewAll"></div>
+       <div class="tab_sub4">
+         <h3> 고객상품평 <span>상품평은 주관적인 의견이므로 보는 사람에 따라 차이가 있을 수 있음을 참고하시기 바랍니다. 성격에 맞지 않는 글은 <p>삭제</p> 될 수 있습니다.</span></h3>
+         <table>
+          <thead>
+            <tr>
+               <th>번호</th>
+               <th>제목</th>
+               <th>작성자</th>
+               <th>작성일</th>
+             </tr>
+           </thead>
+
+           <tbody>
+              <tr>
+                <td colspan="4">등록된 글이 없습니다.</td>
+              </tr>
+           </tbody>
+
+         </table>
        </div>
        <div class="tab_sub5" style="background-color:skyblue">
          <h3>상품Q&A</h3>
@@ -292,11 +313,11 @@
        </div>
      </div>
 
-   </div>     
+   </div>
 
  </section>
 
-  
+
  <footer>
 
   <div id="follow">
@@ -308,8 +329,8 @@
    </div>
   </div>
 
-  <div id="sitemap">  
-   <div class="section1"> 
+  <div id="sitemap">
+   <div class="section1">
 
     <div id="newsletter">
       <h2>NEWSLETTER</h2>
@@ -340,7 +361,7 @@
          <li>MY ADDRESSES</li>
          <li>MY PERSONAL INFO</li>
          <li>MY VOUCHERS</li>
-      </ul>      
+      </ul>
     </div>
 
     <div id="storeinfo">
