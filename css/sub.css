@@ -68,12 +68,19 @@ table {border:none; border-collapse: collapse; border-spacing: 0}}
 #detailAll .tab_sub5 {display:none;}
 .tab_sub4 span {font-size: 13px;}
 .tab_sub4 h3 span p {color:red; display: inline; font-size:14px;}
-.tab_sub4 table thead tr {background-color: #dadada; width: 1170px; height: 30px; margin: 0 auto;}
+.tab_sub4 table thead tr {background-color: #dadada; width: 1070px; height: 30px; margin: 0 auto;}
 .tab_sub4 table thead tr th:first-child {width: 100px;}
 .tab_sub4 table thead tr th:nth-child(2) {width: 700px;}
 .tab_sub4 table thead tr th:nth-child(3) {width: 130px;}
 .tab_sub4 table thead tr th:nth-child(4) {width: 130px;}
-.tab_sub4 table tbody tr td {text-align: center; padding-top:10px;}
+.tab_sub4 #table1 tbody tr td {text-align: center; padding-top:10px;}
+
+.tab_sub4 #table2 {margin-top: 10px; width: 1070px; height: 350px; margin-left: 0;border-top: 1px solid grey;}
+.tab_sub4 #table2 table {width: 100%;}
+.tab_sub4 #table2 tbody tr {width: 1070px; border:1px solid grey;}
+.tab_sub4 #table2 tbody tr th {width: 10%; padding: 8px; background-color: #bfbdbd;}
+.tab_sub4 #table2 tbody tr td {padding: 8px;}
+.tab_sub4 #table2 tbody tr td select {border: 1px solid grey;}
 
 
 
