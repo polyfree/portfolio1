@@ -6,6 +6,8 @@ a {text-decoration:none; color:#333;}
 h1, h2 {margin:0}
 select {border-style: none;}
 
+/* nav 선택부분 */
+header nav ul li:nth-child(4) a {color:#ffeb00;}
 
 /* 제품상세부분 */
 
@@ -81,7 +83,16 @@ table {border:none; border-collapse: collapse; border-spacing: 0}}
 .tab_sub4 #table2 tbody tr th {width: 10%; padding: 8px; background-color: #bfbdbd;}
 .tab_sub4 #table2 tbody tr td {padding: 8px;}
 .tab_sub4 #table2 tbody tr td select {border: 1px solid grey;}
+.tab_sub4 #button {width: 1070px; height: 30px; text-align:center;}
+.tab_sub4 #button button {border:0; margin: 0; padding: 0;}
 
-
-
-/*
+.tab_sub5 #table3 {width: 1070px;}
+.tab_sub5 #table3 span {font-size: 13px;}
+.tab_sub5 #table3 h3 span p {color:red; display: inline; font-size:14px;}
+.tab_sub5 #table3 table {width: 100%;}
+.tab_sub5 #table3 thead tr:first-child {background-color: #dadada; height: 30px;}
+.tab_sub5 #table3 thead tr:nth-child(2) th {font-weight:normal;}
+.tab_sub5 #table3 thead tr:nth-child(3) th {font-weight:normal;}
+.tab_sub5 #table3 thead tr:nth-child(4) th {font-weight:normal;}
+.tab_sub5 #table3 thead tr th:nth-child(2) {width: 550px;}
+.tab_sub5 #table3 thead tr th {padding-top: 10px;}
