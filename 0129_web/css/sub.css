@@ -1,0 +1,98 @@
+﻿@charset "UTF-8";
+
+body {margin: 0; padding: 0;}
+ul,li,ol {list-style:none; padding:0; margin:0;}
+a {text-decoration:none; color:#333;}
+h1, h2 {margin:0}
+select {border-style: none;}
+
+/* nav 컬러 선택 부분 */
+header nav ul li:nth-child(4) a {color:#ffeb00;}
+
+/* 제품상세부분 */
+
+section {width: 1170px; height:3050px; margin:0 auto; position:relative }
+#navtop {width: 1170px; height: 35px; position:relative; margin-top:10px; right: -20px;}
+#navtop span {font-size:13px;}
+#navtop select {width:102px; height:23px; border: 1px solid #bed6e6; border-radius: 5px; vertical-align: middle;}
+#navtop img[alt="home"] {width:12px; height:12px; position:absolute; top:6px; left: -15px; }
+#navtop img[alt="left"] {width: 13px; height: 13px;}
+
+#photoAll {width: 490px; height:566x; float:left;}
+#photoAll #photoview {margin: 10px; border: 1px solid #ddd; }
+#photoAll #photoview img{width: 450px; height:450px; margin-top:3px;  }
+#photoAll #photoZoom {width: 490px; height:5px; position:relative; }
+#photoAll #photoZoom img {position: absolute; bottom:20px; right: 20px; }
+#photoAll #photoSlide {width: 490px; height:63px; }
+#photoAll #photoSlide ul li {width: 60px; height: 60px; background-color: red; float: left; margin-right: 10px; transition:0.3s}
+#photoAll #photoSlide ul li:hover {transform:scale(1.2); }
+
+#tableAll {width:560px; height:560px; float: left; margin-left: 20px;}
+
+#tableAll th {width: 150px; text-align: left; padding: 10px; color:#888; font-weight: normal;}
+table {border:none; border-collapse: collapse; border-spacing: 0}}
+#tableAll table .price td span:first-child {font-size:30px; font-weight: bold; color: #6087c0;}
+#tableAll table .price td span:nth-child(3) { font-size:30px; font-weight: bold; color: red; margin-left: 50px;}
+#tableAll table .price td img {padding-left:5px;}
+#tableAll table .pp {background-color:#f4f4f4;}
+#tableAll table tr:nth-child(4),
+#tableAll table tr:nth-child(5),
+#tableAll table tr:nth-child(6) {background-color:#f4f4f4;}
+#tableAll table .pp td img {margin-right: 10px;}
+#tableAll table .pp td span {font-size: 12px; margin-left: 10px; background-color:red; color: #fff; padding: 2px; border-radius:8px}
+#tableAll table .select select {width: 100%; height: 25px; border: 1px solid gray;}
+#tableAll table .ppp td {margin-botton: 10px; font-size: 14px; text-align: center; background-color: #ddd; padding: 5px;}
+#tableAll table .card span {border: 1px solid gray; font-size: 12px; padding: 3px; }
+#tableAll table .sum td {text-align: right;}
+#tableAll table .sum td span {padding-left:10px;color:#6087c0; font-size: 23px; }
+#tableAll #buttons {margin:30px 0 0 50px;}
+#tableAll #buttons img {float: left;}
+
+
+#recomand {width: 1170px; height: 300px;  margin: 30px auto 80px; display:inline-block;}
+#recomand #innner {}
+#recomand h3 {margin: 0; padding:0 0 20px 0;}
+#recomand ul {width: 1170px; height: 300px;}
+#recomand ul li {width: 172px; height: 250px;  float: left; margin: 0px;border:1px solid #d6d6d6; padding: 20px;}
+#recomand ul li img {margin-left:4px;}
+#recomand ul li .scuberpro {width: 140px; height: 70; font-size:11px;display:block; margin: 10px auto 20px; text-align:center;}
+#recomand ul li .scuberpro2 {width: 140px; height: 70; font-size:17px; display:block; margin-left:10px;text-align:center; }
+
+#detailAll {width: 1170px; height: 2000px;  margin:0 auto; }
+#detailAll ul {width: 1170px; height: 40px; position: sticky; top:0px;}
+#detailAll ul li {cursor:pointer; font-size: 19px; width: 212px; height: 30px; padding: 5px 0; float: left; text-align:center; border: 1px solid #3398dc; background-color:#3398dc; color: #fff;}
+#detailAll .tab_list{float: left;width:1170px; height:400px;  padding:0px;}
+#detailAll .port_back {background-color: #fff; color:#333; border-bottom: none;}
+#detailAll .tab_sub1 {}
+#detailAll .tab_sub2 {display:none;}
+#detailAll .tab_sub3 {display:none;}
+#detailAll .tab_sub4 {display:none;}
+#detailAll .tab_sub5 {display:none;}
+.tab_sub4 span {font-size: 13px;}
+.tab_sub4 h3 span p {color:red; display: inline; font-size:14px;}
+.tab_sub4 table thead tr {background-color: #dadada; width: 1070px; height: 30px; margin: 0 auto;}
+.tab_sub4 table thead tr th:first-child {width: 100px;}
+.tab_sub4 table thead tr th:nth-child(2) {width: 700px;}
+.tab_sub4 table thead tr th:nth-child(3) {width: 130px;}
+.tab_sub4 table thead tr th:nth-child(4) {width: 130px;}
+.tab_sub4 #table1 tbody tr td {text-align: center; padding-top:10px;}
+
+.tab_sub4 #table2 {margin-top: 10px; width: 1070px; height: 225px; margin-left: 0;border-top: 1px solid grey;}
+.tab_sub4 #table2 table {width: 100%;}
+.tab_sub4 #table2 tbody tr {width: 1070px; border:1px solid grey;}
+.tab_sub4 #table2 tbody tr th {width: 10%; padding: 8px; background-color: #bfbdbd;}
+.tab_sub4 #table2 tbody tr td {padding: 8px;}
+.tab_sub4 #table2 tbody tr td select {border: 1px solid grey;}
+.tab_sub4 #button {width: 1070px; height: 30px; text-align:center;}
+.tab_sub4 #button button {border:0; margin: 0; padding: 0;}
+
+.tab_sub5 #table3 {width: 1070px;}
+.tab_sub5 #table3 span {font-size: 13px;}
+.tab_sub5 #table3 h3 span p {color:red; display: inline; font-size:14px;}
+.tab_sub5 #table3 table {width: 100%;}
+.tab_sub5 #table3 thead tr:first-child {background-color: #dadada; height: 30px;}
+.tab_sub5 #table3 thead tr:nth-child(2) th {font-weight:normal;}
+.tab_sub5 #table3 thead tr:nth-child(3) th {font-weight:normal;}
+.tab_sub5 #table3 thead tr:nth-child(4) th {font-weight:normal;}
+.tab_sub5 #table3 thead tr th:nth-child(2) {width: 550px;}
+.tab_sub5 #table3 thead tr th {padding-top: 10px;}
